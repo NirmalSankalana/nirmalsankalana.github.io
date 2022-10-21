@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+    color: #3f3f3f;
 }
 
 ul{
@@ -20,4 +21,6 @@ li{
 a{
     text-decoration: none;
     cursor: pointer;
+    filter: brightness(0.9) invert(.2) sepia(.2) hue-rotate(100deg) saturate(200%);
 }
+
