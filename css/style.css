@@ -5,11 +5,19 @@
     overflow: hidden;
 }
 
-/* div {
-    display: block;
-} */
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
 
-.self-img{
-    object-fit: cover;
-    mix-blend-mode: multiply;
+
+li{
+    list-style: none;
+    margin: 0 2rem 0 0;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
 }
