@@ -1,26 +1,30 @@
-*, :after, :before {
+*,
+:after,
+:before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    color: #3f3f3f;
 }
 
-ul{
+ul {
     display: flex;
     margin: 0;
     padding: 0;
 }
 
 
-li{
+li {
     list-style: none;
     margin: 0 1rem 0 1rem;
 }
 
-a{
+a {
     text-decoration: none;
     cursor: pointer;
     filter: brightness(0.9) invert(.2) sepia(.2) hue-rotate(100deg) saturate(200%);
 }
 
+.links a:hover img {
+    transform: translateY(1px);
+}
